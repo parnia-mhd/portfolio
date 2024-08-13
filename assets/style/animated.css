@@ -1,0 +1,115 @@
+@keyframes cursor {
+    to {
+        border-left: 2px solid;
+    }
+}
+
+/* #ff7f5000 */
+
+@keyframes text-1 {
+
+    0%,
+    19% {
+        display: inline;
+    }
+
+    20%,
+    100% {
+        display: none;
+    }
+}
+
+@keyframes text-2 {
+
+    0%,
+    20% {
+        display: none;
+    }
+
+    21%,
+    39% {
+        display: inline;
+    }
+
+    40%,
+    100% {
+        display: none;
+    }
+}
+
+@keyframes text-3 {
+
+    0%,
+    40% {
+        display: none;
+    }
+
+    41%,
+    59% {
+        display: inline;
+    }
+
+    60%,
+    100% {
+        display: none;
+    }
+}
+
+@keyframes text-4 {
+
+    0%,
+    60% {
+        display: none;
+    }
+
+    61%,
+    79% {
+        display: inline;
+    }
+
+    80%,
+    100% {
+        display: none;
+    }
+}
+
+@keyframes text-5 {
+
+    0%,
+    80% {
+        display: none;
+    }
+
+    81%,
+    100% {
+        display: inline;
+    }
+}
+
+@keyframes typing {
+
+    10%,
+    15%,
+    30%,
+    35%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95% {
+        width: 0;
+    }
+
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85% {
+        width: calc(100% + 8px);
+    }
+}
